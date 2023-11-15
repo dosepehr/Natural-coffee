@@ -1,7 +1,9 @@
-const App = () => {
+import Header from "./Components/common/Header";
+
+const App: React.FC = () => {
   return (
-    <div className="float-none bg-red-500  font-light text-fuchsia-500">
-      App
+    <div className="mx-auto sm:px-10 md:px-14 lg:px-28 py-2">
+      <Header />
     </div>
   );
 };
