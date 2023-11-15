@@ -5,7 +5,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        mainBrown: "#42210B",
+        mainBrown: "#512a10",
+        mainGray: '#4d4d4d',
+        secondaryGray:'#676767'
       },
     },
   },
