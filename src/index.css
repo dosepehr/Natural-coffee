@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* fonts */
+@font-face {
+    font-family: 'alex';
+    src: url('/fonts/alex/AlexBrush-Regular.woff2') format('woff2'),
+        url('/fonts/alex/AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/raleway/Raleway-Regular.woff2') format('woff2'),
+        url('/fonts/raleway/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
