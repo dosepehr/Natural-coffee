@@ -8,7 +8,7 @@ const Hero = () => {
           alt=""
         />
         <div className="flex flex-col space-y-6">
-          <p className="text-6xl text-mainBrown">get your discount</p>
+          <p className="text-6xl text-mainBrown font-alex">Get Your Discount</p>
           <p className="text-6xl font-black text-mainBrown">
             flavored espresso
           </p>
