@@ -8,11 +8,11 @@ const Hero = () => {
           alt=""
         />
         <div className="flex flex-col space-y-6">
-          <p className="text-6xl text-mainBrown font-alex">Get Your Discount</p>
-          <p className="text-6xl font-black text-mainBrown">
-            flavored espresso
+          <p className="font-alex text-6xl text-mainBrown">Get Your Discount</p>
+          <p className="font-roboto text-6xl font-black text-mainBrown">
+            Flavored Espresso
           </p>
-          <p className="text-mainGray max-w-[40%] text-sm ">
+          <p className="max-w-[40%] text-sm text-mainGray ">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words even slightly believable.

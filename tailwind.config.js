@@ -12,6 +12,7 @@ export default {
       fontFamily: {
         raleway: "raleway",
         alex: "alex",
+        roboto: "roboto",
       },
     },
   },
