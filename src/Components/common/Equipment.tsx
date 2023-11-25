@@ -1,6 +1,6 @@
 const Equipment = () => {
   return (
-    <div className="px-4 lg:px-20">
+    <div className="px-4 lg:px-20 py-20">
       <div className="flex flex-col md:flex-row">
         <div className="mb-10 flex w-full items-center justify-center object-cover md:mb-0 md:w-1/2">
           <img
