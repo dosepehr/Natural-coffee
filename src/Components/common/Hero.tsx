@@ -1,3 +1,4 @@
+import Button from "../ui/Button";
 const Hero = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Hero = () => {
             the majority have suffered alteration in some form, by injected
             humour, or randomised words even slightly believable.
           </p>
+          <Button content="OUR PRODUCTS" href="test" />
           {/* <img src="/images/Product.png" className="absolute right-1/2 translate-x-1/2" alt="" /> */}
         </div>
       </div>

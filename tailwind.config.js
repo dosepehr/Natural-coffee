@@ -8,6 +8,7 @@ export default {
         mainBrown: "#512a10",
         mainGray: "#4d4d4d",
         secondaryGray: "#676767",
+        secondaryBrown: "#A87A61",
       },
       fontFamily: {
         raleway: "raleway",
