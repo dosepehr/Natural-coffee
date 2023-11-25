@@ -20,7 +20,7 @@ const Equipment = () => {
               Distribution.
             </p>
           </div>
-          <div className="mt-5 grid w-full grid-cols-2 gap-x-4 gap-y-8">
+          <div className="mt-5 grid w-full grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-8 bg-[url('/images/bgImage.png')] bg-center bg-no-repeat bg-cover md:bg-custom xl:bg-auto ss:bg-auto">
             <div className="flex flex-col items-center justify-center space-y-3">
               <img src="/images/maker.svg" alt="" />
               <p className="text-center text-base font-bold text-mainBrown">

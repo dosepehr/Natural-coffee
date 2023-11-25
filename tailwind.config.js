@@ -15,6 +15,12 @@ export default {
         alex: "alex",
         roboto: "roboto",
       },
+      backgroundSize: {
+        custom: "200%",
+      },
+      screens: {
+        ss:'420px'
+      }
     },
   },
   plugins: [],
