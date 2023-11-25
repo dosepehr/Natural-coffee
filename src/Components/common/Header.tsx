@@ -3,9 +3,11 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="font-raleway relative z-20 flex items-center justify-between py-5">
+    <div className="relative z-20 flex items-center justify-between py-5 font-raleway">
       <Navbar />
-      <Icons />
+      <div className="hidden xl:flex">
+        <Icons />
+      </div>
     </div>
   );
 };
