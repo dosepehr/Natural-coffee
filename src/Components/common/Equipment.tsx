@@ -1,17 +1,13 @@
 const Equipment = () => {
   return (
-    <div className="px-4 lg:px-20 py-20">
-      <div className="flex flex-col md:flex-row">
-        <div className="mb-10 flex w-full items-center justify-center object-cover md:mb-0 md:w-1/2">
-          <img
-            src="/images/imageborder.jpg"
-            alt=""
-            // className="object-cover"
-          />
+    <div className="px-8 py-20 md:px-0 lg:px-10">
+      <div className="flex flex-col lg:flex-row">
+        <div className="mb-14 flex w-full items-center justify-center object-cover lg:mb-0 lg:w-1/2">
+          <img src="/images/imageborder.jpg" alt="" />
         </div>
-        <div className="flex w-full flex-col items-center justify-center md:w-1/2">
-          <div className="md:ml-10">
-            <h1 className=" text-4xl font-extrabold text-mainBrown md:text-5xl lg:text-6xl ">
+        <div className="flex w-full flex-col items-center justify-center lg:w-1/2">
+          <div className="lg:ml-10 max-w-2xl ">
+            <h1 className="text-4xl font-extrabold text-mainBrown md:text-5xl lg:text-6xl ">
               Coffee Equipment
             </h1>
             <p className="mt-7 items-center text-base text-mainGray">
@@ -20,7 +16,7 @@ const Equipment = () => {
               Distribution.
             </p>
           </div>
-          <div className="mt-5 grid w-full grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-8 bg-[url('/images/bgImage.png')] bg-center bg-no-repeat bg-cover md:bg-custom xl:bg-auto ss:bg-auto">
+          <div className="mt-5 grid w-full grid-cols-1 gap-x-4 gap-y-8 bg-[url('/images/bgImage.png')] bg-cover bg-center bg-no-repeat ss:bg-auto sm:grid-cols-2 lg:bg-custom xl:bg-auto">
             <div className="flex flex-col items-center justify-center space-y-3">
               <img src="/images/maker.svg" alt="" />
               <p className="text-center text-base font-bold text-mainBrown">
