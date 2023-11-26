@@ -1,10 +1,11 @@
+import Title from "./Title";
+
 const ChooseUs = () => {
   return (
     <div className="bg-[url('/images/Background.png')] selection:bg-black">
       <div className="bg-[url('/images/Bean-Image.png')] bg-auto bg-center bg-no-repeat py-40 text-center text-white">
-        <h2 className="mb-4 font-alex text-4xl">Why Choose Us</h2>
-        <h2 className="mb-6 text-5xl font-extrabold">XStore Сoffee Demo</h2>
-        <p className="text-tertiaryGray mx-auto max-w-4xl">
+        <Title MainTitle="Why Choose Us" secondTitle="XStore Сoffee Demo" />
+        <p className="mx-auto max-w-4xl text-tertiaryGray">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration, by injected humour, or
           randomised words which don’t look even slightly believable If you are
@@ -43,7 +44,11 @@ const ChooseUs = () => {
             </p>
           </div>
           <div className="text-center sm:text-start">
-            <img src="/images/delivery.svg" alt="" className="mx-auto sm:mx-0" />
+            <img
+              src="/images/delivery.svg"
+              alt=""
+              className="mx-auto sm:mx-0"
+            />
             <p className=" my-4 text-xl font-extrabold text-white">
               24/7 Fast Delivery
             </p>
