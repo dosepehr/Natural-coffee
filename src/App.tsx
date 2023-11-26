@@ -1,6 +1,7 @@
 import ChooseUs from "./Components/common/ChooseUs";
 import Equipment from "./Components/common/Equipment";
 import Header from "./Components/common/Header";
+import Discover from "./Components/layout/Discover";
 // import Hero from "./Components/common/Hero";
 
 const App: React.FC = () => {
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Equipment />
       </div>
       <ChooseUs />
+      <Discover />
     </>
   );
 };
