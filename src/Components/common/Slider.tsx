@@ -1,51 +1,156 @@
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import { useRef } from "react";
+import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// import "./styles.css";
-
-// import required modules
-import { Pagination } from "swiper/modules";
+import Product from "./Product";
 
 export default function Slider() {
+  const swiperRef = useRef<SwiperRef>(null);
   return (
-    <>
-      <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
-          },
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </>
+    <div className="px-5">
+      <div className="group relative flex items-center justify-center overflow-hidden px-4 sm:px-14">
+        <button
+          className="group-hover: absolute -left-10 top-1/2 -translate-y-1/2 scale-[2] text-[#555] transition-all duration-500 group-hover:left-4 sm:flex"
+          onClick={() => swiperRef.current?.swiper?.slidePrev()}
+        >
+          <GrPrevious />
+        </button>
+        <Swiper
+          ref={swiperRef}
+          loop={true}
+          navigation={true}
+          slidesPerView={1}
+          spaceBetween={10}
+          pagination={{
+            enabled: false,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+            1280: {
+              slidesPerView: 5,
+              spaceBetween: 30,
+            },
+          }}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Product
+              productName="product1"
+              productPrice="10"
+              productRating={3}
+              productImg="/images/product.png"
+            />
+          </SwiperSlide>
+        </Swiper>
+        <button
+          className="absolute -right-10 top-1/2 -translate-y-1/2 scale-[2] text-[#555] transition-all duration-500 group-hover:right-4 sm:flex"
+          onClick={() => swiperRef.current?.swiper?.slideNext()}
+        >
+          <GrNext />
+        </button>
+      </div>
+    </div>
   );
 }
