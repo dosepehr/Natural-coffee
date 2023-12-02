@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 type ProductPropsType = {
   productName: string;
   productPrice: string;
@@ -12,10 +14,13 @@ const Product: React.FC<ProductPropsType> = ({
   productImg,
 }) => {
   return (
-    <div className="flex flex-col items-center justify-between bg-white">
-      <img src={productImg} alt={productName} />
-      <p className="text-black">{productName}</p>
-      <p className="text-[#888]">$ {productPrice}</p>
+    <div className="bg-white py-4">
+      <div className="mx-auto mb-3 w-3/4">
+        <img src={productImg} alt={productName} className="mx-auto" />
+      </div>
+      <p className="mb-3 text-black">{productName}</p>
+      <p className="mb-3 text-[#888]">$ {productPrice}</p>
+      <Button content="ADD TO CART" type="main" className="mx-auto mb-3" />
     </div>
   );
 };

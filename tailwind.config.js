@@ -6,10 +6,10 @@ export default {
     extend: {
       colors: {
         mainBrown: "#512a10",
+        secondaryBrown: "#986f57",
         mainGray: "#4d4d4d",
         secondaryGray: "#676767",
-        tertiaryGray:'#CBC0B8',
-        secondaryBrown: "#A87A61",
+        tertiaryGray: "#CBC0B8",
       },
       fontFamily: {
         raleway: "raleway",
@@ -20,8 +20,8 @@ export default {
         custom: "200%",
       },
       screens: {
-        ss:'420px'
-      }
+        ss: "420px",
+      },
     },
   },
   plugins: [],
