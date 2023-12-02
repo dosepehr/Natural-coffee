@@ -18,6 +18,9 @@ export default {
       },
       backgroundSize: {
         custom: "200%",
+        "90%": "90%",
+        "80%": "80%",
+        "100%": "100%",
       },
       screens: {
         ss: "420px",

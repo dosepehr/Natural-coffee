@@ -4,7 +4,7 @@ const ChooseUs = () => {
   return (
     <div className="bg-[url('/images/Background.png')] selection:bg-black">
       <div className="bg-[url('/images/Bean-Image.png')] bg-auto bg-center bg-no-repeat py-40 text-center text-white">
-        <Title MainTitle="Why Choose Us" secondTitle="XStore Сoffee Demo" />
+        <Title mainTitle="Why Choose Us" secondTitle="XStore Сoffee Demo" />
         <p className="mx-auto max-w-4xl text-tertiaryGray">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration, by injected humour, or

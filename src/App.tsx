@@ -1,4 +1,5 @@
 import ChooseUs from "./Components/common/ChooseUs";
+import EmailSender from "./Components/common/EmailSender";
 import Equipment from "./Components/common/Equipment";
 import Header from "./Components/common/Header";
 import Discover from "./Components/layout/Discover";
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       </div>
       <ChooseUs />
       <Discover />
+      <EmailSender />
     </>
   );
 };

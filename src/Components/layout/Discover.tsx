@@ -6,7 +6,7 @@ const Discover = () => {
     <div className="">
       <div className="bg-[url('/images/bg.jpg')] bg-auto bg-center bg-no-repeat py-10">
         <div className="text-center text-white">
-          <Title MainTitle="Latest Arrivals" secondTitle="Discover Product" />
+          <Title mainTitle="Latest Arrivals" secondTitle="Discover Product" />
           <Slider />
         </div>
       </div>
