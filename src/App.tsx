@@ -1,6 +1,7 @@
 import ChooseUs from "./Components/common/ChooseUs";
 import EmailSender from "./Components/common/EmailSender";
 import Equipment from "./Components/common/Equipment";
+import Footer from "./Components/common/Footer";
 import Header from "./Components/common/Header";
 import Discover from "./Components/layout/Discover";
 // import Hero from "./Components/common/Hero";
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <ChooseUs />
       <Discover />
       <EmailSender />
+      <Footer />
     </>
   );
 };
