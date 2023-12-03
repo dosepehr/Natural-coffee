@@ -9,9 +9,9 @@ const store = configureStore({
     getDefaultMiddleware().concat(apiSlice.middleware),
 });
 
-// Infer the `RootState` and `AppDispatch` types from the store itself
+store.dispatch(apiSlice.endpoints.getProducts.initiate({}));
+
 export type RootState = ReturnType<typeof store.getState>;
-// Inferred type: {posts: PostsState, comments: CommentsState, users: UsersState}
 export type AppDispatch = typeof store.dispatch;
 
 export default store;
