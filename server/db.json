@@ -4,50 +4,50 @@
       "id": 1,
       "name": "Monsoon Malabar",
       "image": "product.png",
-      "price": "79.99",
-      "rating": "3.4"
+      "price": 79.99,
+      "rating": 3.4
     },
     {
       "id": 2,
       "name": "Cappuccino",
       "image": "product.png",
-      "price": "33.99",
-      "rating": "4.4"
+      "price": 33.99,
+      "rating": 4.4
     },
     {
       "id": 3,
       "name": "Brew Blend Bold",
       "image": "product.png",
-      "price": "59.99",
-      "rating": "4.2"
+      "price": 59.99,
+      "rating": 4.2
     },
     {
       "id": 4,
       "name": "Thogarihunkal Estate",
       "image": "product.png",
-      "price": "79.99",
-      "rating": "4.6"
+      "price": 79.99,
+      "rating": 4.6
     },
     {
       "id": 5,
       "name": "Malabar",
       "image": "product.png",
-      "price": "49.99",
-      "rating": "4.3"
+      "price": 49.99,
+      "rating": 4.3
     },
     {
       "id": 6,
       "name": "Attikaous Estate",
       "image": "product.png",
-      "price": "39.99",
-      "rating": "4.1"
+      "price": 39.99,
+      "rating": 4.1
     },
     {
       "id": 7,
       "name": "French Cappuccino",
       "image": "product.png",
-      "price": "39.99",
-      "rating": "4.0"
+      "price": 39.99,
+      "rating": 4.0
     }
   ]
 }

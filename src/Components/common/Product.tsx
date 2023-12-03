@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 type ProductPropsType = {
   productName: string;
-  productPrice: string;
+  productPrice: number;
   productImg?: string;
   productRating: number;
 };
