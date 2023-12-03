@@ -1,28 +1,25 @@
 import Button from "../ui/Button";
 const Hero = () => {
   return (
-    <>
-      <div className="flex h-screen items-center">
-        <img
-          src="/images/hero.jpg"
-          className="absolute right-0 top-0 h-screen w-1/2"
-          alt=""
-        />
-        <div className="flex flex-col space-y-6">
-          <p className="font-alex text-6xl text-mainBrown">Get Your Discount</p>
-          <p className="font-roboto text-6xl font-black text-mainBrown">
-            Flavored Espresso
-          </p>
-          <p className="max-w-[40%] text-sm text-mainGray ">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words even slightly believable.
-          </p>
-          <Button content="OUR PRODUCTS" href="test" />
-          {/* <img src="/images/Product.png" className="absolute right-1/2 translate-x-1/2" alt="" /> */}
-        </div>
+    <div className="flex h-screen sm:mt-20 lg:mt-0 lg:items-center justify-center">
+      <div className="absolute left-0 top-0 z-10 h-full w-full bg-black opacity-40 lg:w-1/2 lg:translate-x-full"></div>
+      <div className="absolute right-0 top-0 z-0 h-screen w-full lg:w-1/2">
+        <img src="/images/bg.jpg" alt="" className="h-full w-full" />
       </div>
-    </>
+
+      <div className="relative z-10 flex flex-col space-y-6 px-5">
+        <p className="font-alex text-6xl text-mainBrown">Get Your Discount</p>
+        <p className="font-roboto text-6xl font-black text-mainBrown">
+          Flavored Espresso
+        </p>
+        <p className=" max-w-[90%] text-sm text-white lg:max-w-[40%] lg:text-mainGray">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words even slightly believable.
+        </p>
+        <Button content="OUR PRODUCTS" href="test" />
+      </div>
+    </div>
   );
 };
 
