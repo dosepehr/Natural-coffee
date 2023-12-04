@@ -5,49 +5,105 @@
       "name": "Monsoon Malabar",
       "image": "product.png",
       "price": 79.99,
-      "rating": 3.4
+      "rating": 3.4,
+      "description": "Turpis fermentum risus velit nisi vitae a at a eu egestas augue lacinia integer suspendisse a purus ac ut leo feugiat elementum blandit augue.A pharetra a nisl purus vestibulum suspendisse dui consectetur."
     },
     {
       "id": 2,
       "name": "Cappuccino",
       "image": "product.png",
       "price": 33.99,
-      "rating": 4.4
+      "rating": 4.4,
+      "description": "Dignissim tincidunt morbi lacinia vestibulum potenti nibh suspendisse eu scelerisque ullamcorper habitant gravida facilisi condimentum torquent cubilia sit laoreet aliquet consectetur suspendisse dui consectetur."
     },
     {
       "id": 3,
       "name": "Brew Blend Bold",
       "image": "product.png",
       "price": 59.99,
-      "rating": 4.2
+      "rating": 4.2,
+      "description": "A nam convallis blandit a turpis a condimentum sodales consectetur ullamcorper nec integer malesuada mi lobortis odio cras condimentum parturient suspendisse vestibulum ac scelerisque habitant urna."
     },
     {
       "id": 4,
       "name": "Thogarihunkal Estate",
       "image": "product.png",
       "price": 79.99,
-      "rating": 4.6
+      "rating": 4.6,
+      "description": "Nisl eu a dapibus a velit mi fames ultrices feugiat nisl semper dolor sit lobortis tellus justo fringilla cum at a vehicula consectetur luctus.Sit auctor a condimentum arcu ullamcorper mus a gravida natoque scelerisque"
     },
     {
       "id": 5,
       "name": "Malabar",
       "image": "product.png",
       "price": 49.99,
-      "rating": 4.3
+      "rating": 4.3,
+      "description": "Dignissim tincidunt morbi lacinia vestibulum potenti nibh suspendisse eu scelerisque ullamcorper habitant gravida facilisi condimentum torquent cubilia sit laoreet aliquet consectetur suspendisse dui consectetur."
     },
     {
       "id": 6,
       "name": "Attikaous Estate",
       "image": "product.png",
       "price": 39.99,
-      "rating": 4.1
+      "rating": 4.1,
+      "description": "Sociosqu senectus eget et aliquam nulla vestibulum vestibulum a condimentum at a nibh varius consectetur ac varius nec scelerisque commodo odio nascetur dignissim fusce lobortis montes cursus sociis."
     },
+
     {
       "id": 7,
       "name": "French Cappuccino",
       "image": "product.png",
       "price": 39.99,
-      "rating": 4.0
+      "rating": 4.0,
+      "description": "Adipiscing sociosqu parturient parturient quisque mattis sed sagittis dignissim eget cras habitasse enim vehicula a a sodales aliquam class habitasse morbi parturient potenti accumsan.Scelerisque dignissim sollicitudin."
+    },
+    {
+      "id": 8,
+      "name": "Estate",
+      "image": "product.png",
+      "price": 50.99,
+      "rating": 4.6,
+      "description": "Metus sed parturient placerat ridiculus lacinia quis condimentum donec ut a posuere primis dis aenean ultrices posuere fusce nec est phasellus suspendisse consequat a.Mollis ut id ullamcorper suspendisse orci egestas."
+    },
+    {
+      "id": 9,
+      "name": "Iced Caramel Macchiato",
+      "image": "product.png",
+      "price": 33.99,
+      "rating": 4.1,
+      "description": "Torquent vel massa praesent facilisi in suspendisse suspendisse ut odio a adipiscing viverra a sed donec parturient ac aenean nibh nibh bibendum volutpat suspendisse mus eleifend.Maecenas at nam ut scelerisque massa eleifend."
+    },
+    {
+      "id": 10,
+      "name": "Microlot Macchito",
+      "image": "product.png",
+      "price": 79.99,
+      "rating": 4.5,
+      "description": "A nam convallis blandit a turpis a condimentum sodales consectetur ullamcorper nec integer malesuada mi lobortis odio cras condimentum parturient suspendisse vestibulum ac scelerisque habitant urna."
+    },
+    {
+      "id": 11,
+      "name": "Seethargundu Estate",
+      "image": "product.png",
+      "price": 50.99,
+      "rating": 4.2,
+      "description": "Dignissim tincidunt morbi lacinia vestibulum potenti nibh suspendisse eu scelerisque ullamcorper habitant gravida facilisi condimentum torquent cubilia sit laoreet aliquet consectetur suspendisse dui consectetur."
+    },
+    {
+      "id": 12,
+      "name": "Vienna",
+      "image": "product.png",
+      "price": 35.99,
+      "rating": 4.6,
+      "description": "Adipiscing sociosqu parturient parturient quisque mattis sed sagittis dignissim eget cras habitasse enim vehicula a a sodales aliquam class habitasse morbi parturient potenti accumsan.Scelerisque dignissim sollicitudin."
+    },
+    {
+      "id": 13,
+      "name": "Vienna Esprresso",
+      "image": "product.png",
+      "price": 65.99,
+      "rating": 4.1,
+      "description": "Turpis fermentum risus velit nisi vitae a at a eu egestas augue lacinia integer suspendisse a purus ac ut leo feugiat elementum blandit augue.A pharetra a nisl purus vestibulum suspendisse dui consectetur."
     }
   ]
 }
