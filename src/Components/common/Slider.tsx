@@ -5,7 +5,7 @@ import { GrPrevious } from "react-icons/gr";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import Product from "./Product";
+import ProductCard from "./ProductCard";
 import { useGetProductsQuery } from "../../redux/reducers/apiSlice";
 
 export default function Slider() {
@@ -55,7 +55,7 @@ export default function Slider() {
             >
               {products?.map((product) => (
                 <SwiperSlide key={product.id}>
-                  <Product
+                  <ProductCard
                     productName={product.name}
                     productPrice={product.price}
                     productRating={product.rating}

@@ -1,13 +1,13 @@
 import Button from "../ui/Button";
 
-type ProductPropsType = {
+type ProductCardPropsType = {
   productName: string;
   productPrice: number;
   productImg?: string;
   productRating: number;
 };
 
-const Product: React.FC<ProductPropsType> = ({
+const ProductCard: React.FC<ProductCardPropsType> = ({
   productName,
   productPrice,
   productRating,
@@ -25,4 +25,4 @@ const Product: React.FC<ProductPropsType> = ({
   );
 };
 
-export default Product;
+export default ProductCard;
