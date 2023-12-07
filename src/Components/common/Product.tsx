@@ -5,6 +5,7 @@ import Button from "../ui/Button";
 import { LuMinus } from "react-icons/lu";
 import { LuPlus } from "react-icons/lu";
 import { CiShoppingBasket } from "react-icons/ci";
+import Heart from "../layout/Heart";
 
 const Product = () => {
   const { id } = useParams();
@@ -31,12 +32,23 @@ const Product = () => {
               <p className="max-w-[60%] text-base text-secondaryGray ">
                 {product?.description}
               </p>
-              <div className="flex items-center justify-s space-x-4">
-                <Button type="count" content={<LuPlus />} />
+              <div className="justify-s flex items-center space-x-4">
+                <Button type="count">
+                  <LuPlus />
+                </Button>
                 <p>1</p>
-                <Button type="count" content={<LuMinus />} />
-                {/* <Button type="main" content={<CiShoppingBasket /> } /> */}
-                <button>like</button>
+                <Button type="count">
+                  <LuMinus />
+                </Button>
+                <Button className="!flex items-center space-x-2 !px-8">
+                  <span className="!text-2xl">
+                    <CiShoppingBasket />
+                  </span>
+                  <span className="text-sm">ADD TO CARD</span>
+                </Button>
+                <Button type="count" className="!p-3">
+                  <Heart />
+                </Button>
               </div>
             </div>
           </div>
