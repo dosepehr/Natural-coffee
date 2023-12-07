@@ -18,7 +18,7 @@ const Hero = () => {
             the majority have suffered alteration in some form, by injected
             humour, or randomised words even slightly believable.
           </p>
-          <Button content="OUR PRODUCTS" href="shop" />
+          <Button href="shop">OUR PRODUCTS</Button>
         </div>
       </div>
     </div>

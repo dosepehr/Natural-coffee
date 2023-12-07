@@ -34,11 +34,9 @@ const Products = () => {
                   <div className="text-[#888]">
                     <p className="mb-2">${product.price}</p>
                     <p className="mb-2">{product.description}</p>
-                    <Button
-                      content="ADD TO CART"
-                      type="main"
-                      className="mx-auto my-4 lg:mx-0"
-                    />
+                    <Button type="main" className="mx-auto my-4 lg:mx-0">
+                      ADD TO CART
+                    </Button>
                   </div>
                 </div>
               </div>

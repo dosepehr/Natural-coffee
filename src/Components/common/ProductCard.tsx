@@ -20,7 +20,9 @@ const ProductCard: React.FC<ProductCardPropsType> = ({
       </div>
       <p className="mb-3 text-black">{productName}</p>
       <p className="mb-3 text-[#888]">$ {productPrice}</p>
-      <Button content="ADD TO CART" type="main" className="mx-auto mb-3" />
+      <Button type="main" className="mx-auto mb-3">
+        ADD TO CART
+      </Button>
     </div>
   );
 };
