@@ -6,6 +6,7 @@ import { LuMinus } from "react-icons/lu";
 import { LuPlus } from "react-icons/lu";
 import { CiShoppingBasket } from "react-icons/ci";
 import Heart from "../layout/Heart";
+import Socials from "../layout/Socials";
 
 const Product = () => {
   const { id } = useParams();
@@ -49,6 +50,12 @@ const Product = () => {
                 <Button type="count" className="!p-3">
                   <Heart />
                 </Button>
+              </div>
+              <div className="flex items-center justify-start">
+                <p className="mr-4">Share:</p>
+                <div className="flex space-x-3 text-base text-black">
+                  <Socials />
+                </div>
               </div>
             </div>
           </div>

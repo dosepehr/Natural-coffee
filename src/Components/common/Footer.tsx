@@ -1,12 +1,6 @@
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { IoCodeSlash } from "react-icons/io5";
 import { VscCoffee } from "react-icons/vsc";
+import Socials from "../layout/Socials";
 const Footer = () => {
   return (
     <div className="bg-[url('/images/bg-footer.png')] px-5 py-16  selection:bg-black">
@@ -20,21 +14,7 @@ const Footer = () => {
         <div>
           <img src="/images/footer-logo.png" alt="" className="mx-auto" />
           <div className="mt-10 flex space-x-8 text-2xl text-white">
-            <p className="cursor-pointer text-white transition-all duration-300 hover:text-secondaryBrown">
-              <FaFacebookF />
-            </p>
-            <p className="cursor-pointer text-white transition-all duration-300 hover:text-secondaryBrown">
-              <FaXTwitter />
-            </p>
-            <p className="cursor-pointer text-white transition-all duration-300 hover:text-secondaryBrown">
-              <FaInstagram />
-            </p>
-            <p className="cursor-pointer text-white transition-all duration-300 hover:text-secondaryBrown">
-              <FaLinkedinIn />
-            </p>
-            <p className="cursor-pointer text-white transition-all duration-300 hover:text-secondaryBrown">
-              <FaYoutube />
-            </p>
+            <Socials />
           </div>
         </div>
         <div className="flex flex-col items-center justify-center space-y-2 text-white">
