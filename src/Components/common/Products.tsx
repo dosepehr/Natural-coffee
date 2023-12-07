@@ -16,14 +16,16 @@ const Products = () => {
                 className="flex flex-col items-center justify-center bg-white px-8 py-4 lg:flex-row"
               >
                 <div className="">
-                  <img
-                    className="w-full"
-                    src={
-                      `http://localhost:5000/images/${product.image}` ||
-                      "/images/product.png"
-                    }
-                    alt={product.name}
-                  />
+                  <a href={`/shop/${product.id}`}>
+                    <img
+                      className="w-full"
+                      src={
+                        `http://localhost:5000/images/${product.image}` ||
+                        "/images/product.png"
+                      }
+                      alt={product.name}
+                    />
+                  </a>
                 </div>
                 <div className="flex h-full max-w-[90%] flex-col items-center justify-center text-center sm:max-w-[60%] sm:items-start lg:text-start">
                   <p className="mx-auto mb-2 text-lg font-black lg:mx-0">
